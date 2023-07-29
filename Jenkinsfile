@@ -7,7 +7,7 @@ pipeline{
         stage("Fetch code from github repo qprofiles"){
 agent any
             steps{
-                git url: "https://github.com/lavanyakk9954/car-api-project.git"
+                git url: "https://github.com/lavanyakk9954/java-project-pomxml.git"
                 echo 'first job done'
             }
         }
