@@ -8,7 +8,7 @@ pipeline{
 agent any
             steps{
                 git url: "https://github.com/lavanyakk9954/java-project-pomxml.git"
-                echo 'first job done'
+                echo 'first job done successfully'
             }
         }
         stage("This is to compile the code"){
