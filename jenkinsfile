@@ -4,7 +4,7 @@ pipeline{
         maven "maven"
     }
     stages{
-        stage("Fetch code from github repo qprofiles"){
+        stage("Fetch code from github repo"){
 agent any
             steps{
                 git url: "https://github.com/lavanyakk9954/java-project-pomxml.git"
